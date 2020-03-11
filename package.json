@@ -1,0 +1,20 @@
+{
+  "name": "betterlife",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)",
+  "main": "index.js",
+  "scripts": {
+    "postcss": "postcss ./tailwind.css -o ./tailwind-prod.css",
+    "watch": "postcss ./tailwind.css -o ./tailwind-prod.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.0.6",
+    "autoprefixer": "^9.7.3",
+    "postcss-cli": "^7.1.0",
+    "postcss-import": "^12.0.1",
+    "tailwindcss": "^1.2.0"
+  }
+}

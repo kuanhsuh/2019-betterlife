@@ -1,0 +1,98 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+body {
+    @apply font-light;
+    font-family: "Noto Sans TC", sans-serif;
+  }
+  
+  p {
+    @apply leading-loose;
+  }
+  
+  .nav-bar {
+    height: 1px;
+    background-color: #000;
+    margin: 6px 0;
+    width: 25px;
+  }
+  
+  .nav-cross {
+    height: 1px;
+    background-color: #000;
+    margin: 6px 0;
+    width: 25px;
+    transform: rotate(45deg);
+  }
+  
+  .nav-cross-2 {
+    height: 1px;
+    background-color: #000;
+    margin: 6px 0;
+    width: 25px;
+    transform: rotate(-45deg);
+  }
+  
+  .sidebar {
+    -webkit-animation: fadein 0.3s;
+    -moz-animation: fadein 0.3s;
+    animation: fadein 0.3s;
+  }
+  
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .footer-social-icon {
+    @apply h-5 w-5 fill-current text-teal-500 mr-2 opacity-50;
+  }
+  
+  /* Home Page */
+  
+  .header-img {
+    min-height: 350px;
+    height: 650px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .header-img {
+      height: 350px;
+    }
+  }
+  
+  .section-heading {
+    @apply text-4xl font-medium tracking-wide;
+  }
+  
+  .section-heading-sm {
+    @apply text-xl font-medium tracking-wide;
+  }
+  
+  /* Forms */
+  
+  .label {
+    @apply mb-1 text-sm text-gray-600 font-medium;
+  }
+  
+  .input {
+    @apply p-2 rounded bg-white w-full;
+  }
+  
+  /* Button */
+  
+  .primary-btn {
+    @apply py-3 px-8 border-none bg-teal-500 text-white rounded;
+  }
+  
+  .primary-btn:hover {
+    @apply bg-teal-600;
+  }
+
+@import "tailwindcss/utilities";
