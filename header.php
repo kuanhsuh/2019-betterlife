@@ -29,13 +29,13 @@
                 </a>
                 <ul class="hidden md:flex md:items-end md:w-auto">
                     <li class="mr-2 px-2 text-gray-600 font-medium">
-                        <a href="#">首頁</a>
+                        <a href="<?php echo esc_html(site_url("/")) ?>">首頁</a>
                     </li>
-                    <li class="mr-2 px-2"><a href="#">公司介紹</a></li>
-                    <li class="mr-2 px-2"><a href="#">所有產品</a></li>
-                    <li class="mr-2 px-2"><a href="#">我要詢價</a></li>
-                    <li class="mr-2 px-2"><a href="#">相關文章</a></li>
-                    <li class="pl-2"><a href="#">聯絡我們</a></li>
+                    <li class="mr-2 px-2"><a href="<?php echo esc_html(site_url("/company")) ?>">公司介紹</a></li>
+                    <li class="mr-2 px-2"><a href="<?php echo esc_html(site_url("/products")) ?>">所有產品</a></li>
+                    <li class="mr-2 px-2"><a href="<?php echo esc_html(site_url("/inquiry")) ?>">我要詢價</a></li>
+                    <li class="mr-2 px-2"><a href="<?php echo esc_html(site_url("/all-articles")) ?>">相關文章</a></li>
+                    <li class="pl-2"><a href="<?php echo esc_html(site_url("/contact")) ?>">聯絡我們</a></li>
                 </ul>
                 <span onclick="toggleMenu()" class="block md:hidden">
                     <div class="nav-bar"></div>
@@ -52,11 +52,11 @@
                         </span>
                     </li>
                     <li class="py-2 text-gray-600"><a href="#">首頁</a></li>
-                    <li class="py-2"><a href="#">公司介紹</a></li>
-                    <li class="py-2"><a href="#">所有產品</a></li>
-                    <li class="py-2"><a href="#">我要詢價</a></li>
-                    <li class="py-2"><a href="#">相關文章</a></li>
-                    <li class="py-2"><a href="#">聯絡我們</a></li>
+                    <li class="py-2"><a href="<?php echo esc_html(site_url("/company")) ?>">公司介紹</a></li>
+                    <li class="py-2"><a href="<?php echo esc_html(site_url("/products")) ?>">所有產品</a></li>
+                    <li class="py-2"><a href="<?php echo esc_html(site_url("/inquiry")) ?>">我要詢價</a></li>
+                    <li class="py-2"><a href="<?php echo esc_html(site_url("/all-articles")) ?>">相關文章</a></li>
+                    <li class="py-2"><a href="<?php echo esc_html(site_url("/contact")) ?>">聯絡我們</a></li>
                 </ul>
             </div>
         </div>

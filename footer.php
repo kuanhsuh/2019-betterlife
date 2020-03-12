@@ -21,10 +21,12 @@
                     <div class="flex -mx-2">
                         <div class="w-1/2 pt-4 px-2">
                             <ul>
-                                <li>首頁</li>
-                                <li>公司介紹</li>
-                                <li>所有產品</li>
-                                <li>教學文章</li>
+                                <li><a href="<?php echo esc_html(site_url("/")) ?>">首頁</a></li>
+                                <li><a href="<?php echo esc_html(site_url("/company")) ?>">公司介紹</a></li>
+                                <li><a href="<?php echo esc_html(site_url("/products")) ?>">所有產品</a></li>
+                                <li><a href="<?php echo esc_html(site_url("/inquiry")) ?>">我要詢價</a></li>
+                                <li><a href="<?php echo esc_html(site_url("/all-articles")) ?>">相關文章</a></li>
+                                <li><a href="<?php echo esc_html(site_url("/contact")) ?>">聯絡我們</a></li>
                             </ul>
                         </div>
                         <div class="w-1/2 pt-4 px-2 flex">
