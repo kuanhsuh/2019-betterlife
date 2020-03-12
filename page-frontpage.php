@@ -22,14 +22,7 @@ get_header(); ?>
                 <div class="w-full sm:w-6/12 px-0 sm:px-2 mt-4 sm:mt-0">
                     <div class="flex justify-center">
                         <h3 class="section-heading flex items-baseline mt-4 sm:mt-0">
-                            <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="40" height="16">
-                                <g data-name="Group 32">
-                                    <g data-name="Group 31" fill="#2cb1bc">
-                                        <path data-name="Rectangle 58" d="M20 0h20v5H20z" />
-                                        <path data-name="Path 5" d="M0 11h40v5H0z" />
-                                    </g>
-                                </g>
-                            </svg>
+                            <?php get_template_part('template-parts/content', 'svg-heading-line'); ?>
                             關於大岳</h3>
                     </div>
                     <p class="mt-4 px-6">
@@ -48,14 +41,8 @@ get_header(); ?>
         <div class="container px-4 sm:px-0 mx-auto">
             <div class="flex justify-center">
                 <h3 class="section-heading flex items-baseline">
-                    <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="40" height="16">
-                        <g data-name="Group 32">
-                            <g data-name="Group 31" fill="#2cb1bc">
-                                <path data-name="Rectangle 58" d="M20 0h20v5H20z" />
-                                <path data-name="Path 5" d="M0 11h40v5H0z" />
-                            </g>
-                        </g>
-                    </svg>產品與服務</h3>
+                <?php get_template_part('template-parts/content', 'svg-heading-line'); ?>    
+                產品與服務</h3>
             </div>
             <div class="flex flex-wrap mt-8 mx-0 sm:-mx-2">
                 <div class="w-full sm:w-1/2 md:w-3/12 px-0 sm:px-2">
@@ -83,15 +70,8 @@ get_header(); ?>
             <div class="flex flex-wrap mt-8 mx-0 sm:-mx-6">
                 <div class="w-full sm:w-4/12 px-0 sm:px-6">
                     <div class="card text-center flex flex-col justify-center h-full">
-                        <h3 class="flex justify-center mb-4 text-xl font-medium items-center text-gray-700"><svg
-                                class="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.764 19.011">
-                                <path data-name="Path 6"
-                                    d="M23.764 5.489v11.145a2.376 2.376 0 01-2.376 2.376H2.376A2.376 2.376 0 010 16.634V5.489l11.347 5.668a1.188 1.188 0 001.069 0z"
-                                    fill="#54d1db" />
-                                <path data-name="Path 7"
-                                    d="M11.882 8.769L0 2.828v-.452A2.383 2.383 0 012.376 0h19.012a2.376 2.376 0 012.376 2.376v.452z"
-                                    fill="#2cb1bc" />
-                            </svg>
+                        <h3 class="flex justify-center mb-4 text-xl font-medium items-center text-gray-700">
+                            <?php get_template_part('template-parts/content', 'svg-mail'); ?>
                             聯絡我們
                         </h3>
                         <p class="mb-2 tracking-wider px-16 text-gray-600 text-sm">間成離之風布，星連無，苦常廠片顯線他個史現</p>
@@ -100,15 +80,8 @@ get_header(); ?>
                 </div>
                 <div class="my-8 sm:my-0 w-full sm:w-4/12 px-0 shadow-2xl py-20 transform -translate-y-4 sm:px-6">
                     <div class="card text-center flex flex-col justify-center h-full">
-                        <h3 class="flex justify-center mb-4 text-xl font-medium items-center text-gray-700"><svg
-                                class="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.764 19.011">
-                                <path data-name="Path 6"
-                                    d="M23.764 5.489v11.145a2.376 2.376 0 01-2.376 2.376H2.376A2.376 2.376 0 010 16.634V5.489l11.347 5.668a1.188 1.188 0 001.069 0z"
-                                    fill="#54d1db" />
-                                <path data-name="Path 7"
-                                    d="M11.882 8.769L0 2.828v-.452A2.383 2.383 0 012.376 0h19.012a2.376 2.376 0 012.376 2.376v.452z"
-                                    fill="#2cb1bc" />
-                            </svg>
+                        <h3 class="flex justify-center mb-4 text-xl font-medium items-center text-gray-700">
+                            <?php get_template_part('template-parts/content', 'svg-mail'); ?>
                             立即來電
                         </h3>
                         <p class="mb-2 tracking-wider px-16 text-gray-600 text-sm">間成離之風布，星連無，苦常廠片顯線他個史現</p>
@@ -117,15 +90,8 @@ get_header(); ?>
                 </div>
                 <div class="w-full sm:w-4/12 px-0 sm:px-6">
                     <div class="card text-center flex flex-col justify-center h-full">
-                        <h3 class="flex justify-center mb-4 text-xl font-medium items-center text-gray-700"><svg
-                                class="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.764 19.011">
-                                <path data-name="Path 6"
-                                    d="M23.764 5.489v11.145a2.376 2.376 0 01-2.376 2.376H2.376A2.376 2.376 0 010 16.634V5.489l11.347 5.668a1.188 1.188 0 001.069 0z"
-                                    fill="#54d1db" />
-                                <path data-name="Path 7"
-                                    d="M11.882 8.769L0 2.828v-.452A2.383 2.383 0 012.376 0h19.012a2.376 2.376 0 012.376 2.376v.452z"
-                                    fill="#2cb1bc" />
-                            </svg>
+                        <h3 class="flex justify-center mb-4 text-xl font-medium items-center text-gray-700">
+                            <?php get_template_part('template-parts/content', 'svg-mail'); ?>
                             現場參觀
                         </h3>
                         <p class="mb-2 tracking-wider px-16 text-gray-600 text-sm">間成離之風布，星連無，苦常廠片顯線他個史現</p>

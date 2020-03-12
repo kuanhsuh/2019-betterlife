@@ -25,7 +25,7 @@
         <div class="container mx-auto md:px-0">
             <div class="flex flex-wrap justify-between items-center md:items-end">
                 <a href="/">
-                    <div class="bg-gray-500 w-32 h-12"></div>
+                    <img src="<?php echo get_theme_file_uri('/assets/logo.png')?>"
                 </a>
                 <ul class="hidden md:flex md:items-end md:w-auto">
                     <li class="mr-2 px-2 text-gray-600 font-medium">
@@ -47,7 +47,7 @@
                     <li class="py-3 text-right pr-6">
                         <span onclick="toggleMenu()" class="inline-block relative"
                             style="width: 25px; height: 25px; margin-top: 15px;">
-                            <div class="nav-cross absolute" style=""></div>
+                            <div class="nav-cross absolute"></div>
                             <div class="nav-cross-2 absolute top-0"></div>
                         </span>
                     </li>

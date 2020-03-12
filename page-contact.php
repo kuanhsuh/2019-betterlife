@@ -41,7 +41,11 @@ get_header(); ?>
                 </div>
             </div>
             <div class="flex justify-center mt-6">
-                <button class="primary-btn">送出</button>
+                <button class="primary-btn flex items-center">
+
+                <?php get_template_part('template-parts/content', 'svg-send'); ?>
+                    送出
+                </button>
             </div>
         </div>
     </section>
