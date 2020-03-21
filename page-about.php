@@ -34,6 +34,17 @@ get_header(); ?>
                 <span class="bg-teal-500 block rounded w-full h-32"></span>
               </div>
             </div>
+            <!-- <ul class="text-xl">
+              <li class="border-b border-gray-300 py-4">
+                <div class="flex items-center font-light">
+                  <div class="font-medium" style="min-width: 200px;">
+                    <span class="inline-block border border-teal-500 px-4 py-2 border-2 mr-2" style="border-radius: 50%">1</span>
+                    來電
+                  </div>
+                  <span class="text-base px-2">介紹產品，規格，討論需求</span>
+                </div>
+              </li>
+            </ul> -->
           </div>
         </div> <!-- sm:w-9/12 -->
       </div>

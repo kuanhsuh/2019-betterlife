@@ -11,7 +11,9 @@
 get_header();
 ?>
 
-<?php while (have_posts()) : the_post(); ?>
+<?php while (have_posts()) : the_post();
+  setPostViews(get_the_ID());
+?>
 
   <header>
     <div class="bg-teal-500 w-full" style="height: 450px;"></div>
