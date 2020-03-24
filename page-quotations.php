@@ -3,7 +3,7 @@
 get_header(); ?>
 <?php while (have_posts()) : the_post(); ?>
   <header>
-    <div class="bg-teal-500 w-full" style="height: 450px;"></div>
+    <img src="<?php echo get_theme_file_uri('/assets/quotation-header.jpg') ?>" class="object-cover object-bottom w-full" style="max-height: 450px;" />
   </header>
 
   <section class="py-0 sm:py-10">
