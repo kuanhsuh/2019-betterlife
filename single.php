@@ -23,13 +23,12 @@ get_header();
     <div class="container mx-auto">
       <div class="flex flex-wrap sm:-mx-6">
         <main class="w-full md:w-8/12 bg-white px-6 mt-8 md:mt-0">
-          <a href="#" class="text-teal-700 italic mb-2 block font-normal"> &#8592; 回上一頁</a>
+          <a href="<?php echo esc_html(site_url("/all-articles")) ?>" class="text-teal-700 italic mb-2 block font-normal"> &#8592; 回上一頁</a>
           <article>
             <h2 class="text-green-700 font-medium text-2xl mb-1"><?php the_title(); ?></h2>
             <ul class="flex inline text-sm mb-4 text-gray-600">
               <li><?php the_time('F d, Y') ?></li>
             </ul>
-            <img src="https://images.pexels.com/photos/3041109/pexels-photo-3041109.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="rounded">
             <?php the_content(); ?>
           </article>
         </main> <!-- sm:w-8/12 -->

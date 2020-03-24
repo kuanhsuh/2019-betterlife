@@ -23,7 +23,7 @@ get_header(); ?>
         </div>
         <div class="w-full sm:w-6/12 px-0 sm:px-2 mt-4 sm:mt-0">
           <div class="flex justify-center">
-            <h3 class="section-heading flex items-baseline mt-4 sm:mt-0">
+            <h3 class="section-heading flex items-baseline my-4 sm:mt-0">
               <?php get_template_part('template-parts/content', 'svg-heading-line'); ?>
               關於大岳</h3>
           </div>
@@ -62,7 +62,7 @@ get_header(); ?>
   <section class="py-8 sm:py-16 bg-white">
     <div class="container px-4 sm:px-0 mx-auto">
       <div class="flex justify-center">
-        <h3 class="section-heading">聯絡我們</h3>
+        <h3 class="section-heading flex items-baseline"><?php get_template_part('template-parts/content', 'svg-heading-line'); ?>聯絡我們</h3>
       </div>
       <div class="flex flex-wrap mt-8 mx-0 sm:-mx-6">
         <div class="w-full sm:w-4/12 px-0 sm:px-6">

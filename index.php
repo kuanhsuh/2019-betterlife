@@ -25,11 +25,13 @@ get_header();
       <main class="w-full md:w-8/12 bg-white mt-8 md:mt-0 px-6">
         <?php while (have_posts()) : the_post(); ?>
           <article>
-            <div class="relative overflow-hidden rounded-lg">
+            <div class="relative overflow-hidden shadow-lg rounded-lg">
               <div class="absolute bg-teal-700 rounded-lg text-white font-medium p-2 " style="top: 3%; left: 3%;">
                 <?php the_time('F d, Y') ?>
               </div>
-              <img src="https://images.pexels.com/photos/3041109/pexels-photo-3041109.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" />
+              <?php if (has_post_thumbnail()) { ?>
+                <?php the_post_thumbnail("", array('class'  => 'w-full rounded object-cover object-center thumbnail')); ?>
+              <?php } ?>
             </div>
             <div class="mt-3">
               <a href="<?php the_permalink(); ?>">
@@ -45,6 +47,8 @@ get_header();
           </article>
           <hr class="border-b-0 border-gray-300 my-8" />
         <?php endwhile; ?>
+        <?php wp_pagenavi(); ?>
+
       </main>
       <!-- sm:w-8/12 -->
       <?php get_template_part('template-parts/content', 'article-sidebar'); ?>

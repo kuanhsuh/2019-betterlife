@@ -625,6 +625,7 @@ video {
 
 body {
   font-weight: 300;
+  color: #2d3748;
   font-family: "Noto Sans TC", sans-serif;
 }
 
@@ -745,6 +746,22 @@ p {
 
 .primary-btn:hover {
   background-color: #319795;
+}
+
+.thumbnail {
+  max-height: 400px;
+}
+
+/* About Pages */
+
+.about h3 {
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  margin-bottom: 1rem;
 }
 
 .sr-only {
