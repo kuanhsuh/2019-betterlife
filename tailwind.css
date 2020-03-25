@@ -109,4 +109,9 @@ p {
   @apply mb-4;
 }
 
+.product-img {
+  height: 350px;
+  overflow: hidden;
+}
+
 @import "tailwindcss/utilities";

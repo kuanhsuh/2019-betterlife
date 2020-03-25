@@ -764,6 +764,11 @@ p {
   margin-bottom: 1rem;
 }
 
+.product-img {
+  height: 350px;
+  overflow: hidden;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

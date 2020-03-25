@@ -13,18 +13,30 @@ get_header(); ?>
       <div class="w-full md:w-8/12 bg-white shadow rounded py-6 px-10 mt-8 md:mt-0">
         <h1 class="font-medium text-3xl mb-6">所有產品</h1>
         <div class="flex flex-wrap mt-8 -mx-2">
-          <div class="w-full sm:w-1/2 px-2 mb-6">
-            <span class="bg-teal-500 block rounded w-full h-64"></span>
-          </div>
-          <div class="w-full sm:w-1/2 px-2 mb-6">
-            <span class="bg-teal-500 block rounded w-full h-64"></span>
-          </div>
-          <div class="w-full sm:w-1/2 px-2 mb-6">
-            <span class="bg-teal-500 block rounded w-full h-64"></span>
-          </div>
-          <div class="w-full sm:w-1/2 px-2 mb-6">
-            <span class="bg-teal-500 block rounded w-full h-64"></span>
-          </div>
+          <?php
+          $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+          $loop = new WP_Query(array(
+            'post_type' => 'product',
+            'orderby' => 'post_id',
+            'order' => 'ASC',
+            'posts_per_page' => '4',
+            'paged' => $paged
+          ));
+          while ($loop->have_posts()) : $loop->the_post(); ?>
+            <div class="w-full sm:w-1/2 px-2 mb-6">
+              <a href="<?php the_permalink(); ?>" class="product-img">
+                <?php
+                if (has_post_thumbnail()) {
+                  the_post_thumbnail('full', array(
+                    'class' => 'w-full object-cover  h-full object-center', 'alt'  => trim(strip_tags($post->post_title)),
+                    'title'  => trim(strip_tags($post->post_title))
+                  ));
+                } ?>
+                <h3 class="text-center"><?php the_title(); ?></h3>
+              </a>
+            </div>
+          <?php endwhile;
+          wp_reset_query(); ?>
         </div>
 
       </div> <!-- sm:w-9/12 -->
