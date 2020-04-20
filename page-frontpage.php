@@ -4,7 +4,7 @@ get_header(); ?>
 <?php while (have_posts()) : the_post(); ?>
 
   <header class="container mx-auto">
-    <div class="bg-teal-500 rounded w-full header-img"></div>
+    <img src="<?php echo get_theme_file_uri('/assets/home-header.jpg') ?>" alt="" class="w-full object-cover header-img">
   </header>
 
   <!-- 關於我們 -->
@@ -13,12 +13,18 @@ get_header(); ?>
       <div class="flex flex-wrap mt-8 mx-0 sm:-mx-2">
         <div class="w-full sm:w-6/12 px-0 sm:px-2 flex">
           <div class="w-1/2 mr-5" style="height: 500px; margin-top: -40px">
-            <span class="bg-teal-400 rounded block w-full mb-5" style="height: 60%"></span>
-            <span class="bg-teal-400 rounded block w-full" style="height: 30%"></span>
+            <span class="bg-teal-400 rounded block w-full mb-5 overflow-hidden" style="height: 30%">
+              <img src="<?php echo get_theme_file_uri('/assets/home-h-1.jpg') ?>" alt="" class="w-full object-cover h-full">
+            </span>
+            <span class="bg-teal-400 rounded block w-full overflow-hidden" style="height: 60%">
+              <img src="<?php echo get_theme_file_uri('/assets/home-v-1.jpg') ?>" alt="" class="w-full object-cover h-full"></span>
           </div>
           <div class="w-1/2 mr-5" style="height: 500px; margin-bottom: -40px">
-            <span class="bg-teal-400 rounded block w-full mb-5" style="height: 30%"></span>
-            <span class="bg-teal-400 rounded block w-full" style="height: 60%"></span>
+            <span class="bg-teal-400 rounded block w-full mb-5 overflow-hidden" style="height: 30%">
+              <img src="<?php echo get_theme_file_uri('/assets/home-h-2.jpg') ?>" alt="" class="w-full object-cover h-full">
+            </span>
+            <span class="bg-teal-400 rounded block w-full overflow-hidden" style="height: 60%">
+              <img src="<?php echo get_theme_file_uri('/assets/home-v-2.jpg') ?>" alt="" class="w-full object-cover h-full "></span>
           </div>
         </div>
         <div class="w-full sm:w-6/12 px-0 sm:px-2 mt-4 sm:mt-0">
@@ -43,13 +49,16 @@ get_header(); ?>
       </div>
       <div class="flex flex-wrap mt-8 mx-0 sm:-mx-2">
         <div class="w-full sm:w-1/2 md:w-3/12 px-0 sm:px-2">
-          <span class="bg-teal-500 block rounded w-full h-64"></span>
+          <img src="<?php echo get_theme_file_uri('/assets/home-product-door.jpg') ?>" alt="" class="w-full object-cover h-full rounded shadow-lg">
+          <p class="text-sm font-normal text-center">鋁合金門</p>
         </div>
         <div class="w-full sm:w-1/2 md:w-3/12 px-0 sm:px-2 mt-4 sm:mt-0">
-          <span class="bg-teal-500 block rounded w-full h-64"></span>
+          <img src="<?php echo get_theme_file_uri('/assets/home-product-shutter.jpg') ?>" alt="" class="w-full object-cover h-full rounded shadow-lg">
+          <p class="text-sm font-normal text-center">百葉窗</p>
         </div>
         <div class="w-full sm:w-1/2 md:w-3/12 px-0 sm:px-2 mt-4 sm:mt-0">
-          <span class="bg-teal-500 block rounded w-full h-64"></span>
+          <img src="<?php echo get_theme_file_uri('/assets/home-product-window.jpg') ?>" alt="" class="w-full object-cover h-full rounded shadow-lg">
+          <p class="text-sm font-normal text-center">氣密窗</p>
         </div>
         <div class="w-full sm:w-1/2 md:w-3/12 px-0 sm:px-2 mt-4 sm:mt-0">
           <span class="bg-teal-500 block rounded w-full h-64"></span>

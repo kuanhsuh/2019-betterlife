@@ -58,7 +58,7 @@ p {
 
 .header-img {
   min-height: 350px;
-  height: 650px;
+  height: 550px;
 }
 
 @media only screen and (max-width: 600px) {

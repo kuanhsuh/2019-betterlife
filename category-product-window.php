@@ -11,16 +11,15 @@ get_header(); ?>
     <div class="flex flex-wrap">
       <?php get_template_part('template-parts/content', 'products-sidebar'); ?>
       <div class="w-full md:w-8/12 bg-white shadow rounded py-6 px-10 mt-8 md:mt-0">
-        <h1 class="font-medium text-3xl mb-6">所有產品</h1>
+        <h1 class="font-medium text-3xl mb-6">氣密窗</h1>
         <div class="flex flex-wrap mt-8 -mx-2">
           <?php
-          $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
           $loop = new WP_Query(array(
             'post_type' => 'product',
             'orderby' => 'post_id',
+            'cat' => 5,
             'order' => 'ASC',
             'posts_per_page' => '8',
-            'paged' => $paged
           ));
           while ($loop->have_posts()) : $loop->the_post(); ?>
             <div class="w-full sm:w-1/2 px-2 mb-10">
@@ -39,7 +38,7 @@ get_header(); ?>
           wp_reset_query(); ?>
         </div>
         <div class="flex justify-center mt-4">
-          <?php wp_pagenavi(array('query' => $loop)); ?>
+          <?php wp_pagenavi(); ?>
         </div>
       </div> <!-- sm:w-9/12 -->
     </div>
