@@ -4,7 +4,14 @@
   </h2>
   <ul>
     <?php
-    $categories = get_categories();
+    $args = array(
+      'type'                     => 'post',
+      'orderby'                  => 'name',
+      'order'                    => 'ASC',
+      'hide_empty'               => true,
+      'exclude'                  => array(5, 7, 8, 9, 6)
+    );
+    $categories = get_categories($args);
     foreach ($categories as $category) {
       echo '
             <li class="p-4 text-teal-800 font-medium border-b border-teal-300">

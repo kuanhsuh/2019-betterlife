@@ -20,6 +20,33 @@
   <link rel="profile" href="https://gmpg.org/xfn/11">
 
   <?php wp_head(); ?>
+
+  <style>
+    .googlemap {
+      position: relative;
+      /* 4:3 ratio*/
+      overflow: hidden;
+      height: 600px;
+    }
+
+    .googlemap iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100% !important;
+      height: 600px;
+    }
+
+    @media screen and (max-width: 620px) {
+      .googlemap {
+        height: 350px;
+      }
+
+      .googlemap iframe {
+        height: 350px;
+      }
+    }
+  </style>
 </head>
 
 <body <?php body_class(); ?>>
