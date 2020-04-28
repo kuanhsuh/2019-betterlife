@@ -61,7 +61,8 @@ get_header(); ?>
           <p class="text-sm font-normal text-center">氣密窗</p>
         </div>
         <div class="w-full sm:w-1/2 md:w-3/12 px-0 sm:px-2 mt-4 sm:mt-0">
-          <span class="bg-teal-500 block rounded w-full h-64"></span>
+          <img src="<?php echo get_theme_file_uri('/assets/home-product-heatsheet.jpg') ?>" alt="" class="w-full object-cover h-full rounded shadow-lg">
+          <p class="text-sm font-normal text-center">隔熱貼膜</p>
         </div>
       </div>
     </div>
