@@ -10,8 +10,8 @@ get_header(); ?>
   <!-- 關於我們 -->
   <section class="py-8 sm:pt-16 sm:pb-16 bg-white">
     <div class="container px-4 sm:px-0 mx-auto">
-      <div class="flex flex-wrap mt-8 mx-0 sm:-mx-2">
-        <div class="w-full sm:w-6/12 px-0 sm:px-2 flex">
+      <div class="flex flex-wrap mt-8 mx-0 sm:-mx-6">
+        <div class="w-full sm:w-6/12 px-0 sm:px-6 flex">
           <div class="w-1/2 mr-5" style="height: 500px; margin-top: -40px">
             <span class="bg-teal-400 rounded block w-full mb-5 overflow-hidden" style="height: 30%">
               <img src="<?php echo get_theme_file_uri('/assets/home-h-1.jpg') ?>" alt="" class="w-full object-cover h-full">
@@ -27,7 +27,7 @@ get_header(); ?>
               <img src="<?php echo get_theme_file_uri('/assets/home-v-2.jpg') ?>" alt="" class="w-full object-cover h-full "></span>
           </div>
         </div>
-        <div class="w-full sm:w-6/12 px-0 sm:px-2 mt-4 sm:mt-0">
+        <div class="w-full sm:w-6/12 px-0 sm:px-6 mt-4 sm:mt-0">
           <div class="flex justify-center">
             <h3 class="section-heading flex items-baseline my-4 sm:mt-0">
               <?php get_template_part('template-parts/content', 'svg-heading-line'); ?>
