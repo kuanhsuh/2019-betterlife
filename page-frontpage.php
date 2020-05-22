@@ -4,7 +4,9 @@ get_header(); ?>
 <?php while (have_posts()) : the_post(); ?>
 
   <header class="container mx-auto">
-    <?php echo [smartslider3 slider=12] ?>
+    <?php
+    echo do_shortcode('[smartslider3 slider=12]');
+    ?>
   </header>
 
   <!-- 關於我們 -->
