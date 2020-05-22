@@ -66,7 +66,8 @@
               <a href="<?php echo esc_html(site_url("/category/product-door")) ?>">鋁合金門</a>
               <a href="<?php echo esc_html(site_url("/category/product-woodshutter")) ?>">實木百葉窗</a>
               <a href="<?php echo esc_html(site_url("/category/product-outdoor-shutter")) ?>">戶外升降百葉窗</a>
-              <a href="<?php echo esc_html(site_url("/category/product-heat-shield")) ?>">貼膜</a>
+              <a href="<?php echo esc_html(site_url("/category/product-heat-shield")) ?>">防曬隔熱產品</a>
+              <a href="#">機能紗網</a>
             </div>
           </li>
           <li class="mr-2 px-2 <?php if (is_page(21)) echo 'text-gray-600 font-medium'; ?>"><a href="<?php echo esc_html(site_url("/inquiry")) ?>">我要詢價</a></li>
@@ -95,7 +96,8 @@
               <li class="pt-4 text-left" style="padding-left: 7rem;"><a href="<?php echo esc_html(site_url("/category/product-door")) ?>">鋁合金門</a></li>
               <li class="pt-4 text-left" style="padding-left: 7rem;"><a href="<?php echo esc_html(site_url("/category/product-woodshutter")) ?>">實木百葉窗</a></li>
               <li class="pt-4 text-left" style="padding-left: 7rem;"><a href="<?php echo esc_html(site_url("/category/product-outdoor-shutter")) ?>">戶外升降百葉窗</a></li>
-              <li class="pt-4 text-left" style="padding-left: 7rem;"><a href="<?php echo esc_html(site_url("/category/product-heat-shield")) ?>">貼膜</a></li>
+              <li class="pt-4 text-left" style="padding-left: 7rem;"><a href="<?php echo esc_html(site_url("/category/product-heat-shield")) ?>">防曬隔熱產品</a></li>
+              <li class="pt-4 text-left" style="padding-left: 7rem;"><a href="#">機能紗網</a></li>
             </ul>
           </li>
           <li class="py-2"><a href="<?php echo esc_html(site_url("/inquiry")) ?>">我要詢價</a></li>
