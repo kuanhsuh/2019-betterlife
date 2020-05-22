@@ -90,14 +90,15 @@
           <li class="py-2"><a href="<?php echo esc_html(site_url("/company")) ?>">公司介紹</a></li>
           <li class="py-2"><span class="dropdownMobile flex justify-center">
               所有產品
-              <?php get_template_part('template-parts/content', 'svg-plus'); ?></span>
-            <ul class="hidden">
-              <li class="pt-4 text-left" style="padding-left: 7rem;"><a href="<?php echo esc_html(site_url("/category/product-window")) ?>">隔音氣密窗</a></li>
-              <li class="pt-4 text-left" style="padding-left: 7rem;"><a href="<?php echo esc_html(site_url("/category/product-door")) ?>">鋁合金門</a></li>
-              <li class="pt-4 text-left" style="padding-left: 7rem;"><a href="<?php echo esc_html(site_url("/category/product-woodshutter")) ?>">實木百葉窗</a></li>
-              <li class="pt-4 text-left" style="padding-left: 7rem;"><a href="<?php echo esc_html(site_url("/category/product-outdoor-shutter")) ?>">戶外升降百葉窗</a></li>
-              <li class="pt-4 text-left" style="padding-left: 7rem;"><a href="<?php echo esc_html(site_url("/category/product-heat-shield")) ?>">防曬隔熱產品</a></li>
-              <li class="pt-4 text-left" style="padding-left: 7rem;"><a href="#">機能紗網</a></li>
+              <?php //get_template_part('template-parts/content', 'svg-plus'); 
+              ?></span>
+            <ul class="">
+              <li class="pt-4 text-left text-xs" style="padding-left: 9rem;"><a href="<?php echo esc_html(site_url("/category/product-window")) ?>">隔音氣密窗</a></li>
+              <li class="pt-4 text-left" style="padding-left: 9rem;"><a href="<?php echo esc_html(site_url("/category/product-door")) ?>">鋁合金門</a></li>
+              <li class="pt-4 text-left text-xs" style="padding-left: 9rem;"><a href="<?php echo esc_html(site_url("/category/product-woodshutter")) ?>">實木百葉窗</a></li>
+              <li class="pt-4 text-left text-xs" style="padding-left: 9rem;"><a href="<?php echo esc_html(site_url("/category/product-outdoor-shutter")) ?>">戶外升降百葉窗</a></li>
+              <li class="pt-4 text-left text-xs" style="padding-left: 9rem;"><a href="<?php echo esc_html(site_url("/category/product-heat-shield")) ?>">防曬隔熱產品</a></li>
+              <li class="pt-4 text-left text-xs" style="padding-left: 9rem;"><a href="#">機能紗網</a></li>
             </ul>
           </li>
           <li class="py-2"><a href="<?php echo esc_html(site_url("/inquiry")) ?>">我要詢價</a></li>
