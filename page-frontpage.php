@@ -4,7 +4,7 @@ get_header(); ?>
 <?php while (have_posts()) : the_post(); ?>
 
   <header class="container mx-auto">
-    [smartslider3 slider=12]
+    <?php echo [smartslider3 slider=12] ?>
   </header>
 
   <!-- 關於我們 -->
