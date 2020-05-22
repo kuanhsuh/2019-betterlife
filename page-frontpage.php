@@ -4,7 +4,7 @@ get_header(); ?>
 <?php while (have_posts()) : the_post(); ?>
 
   <header class="container mx-auto">
-    <img src="<?php echo get_theme_file_uri('/assets/home-header.jpg') ?>" alt="" class="w-full object-cover header-img">
+    [smartslider3 slider=12]
   </header>
 
   <!-- 關於我們 -->
