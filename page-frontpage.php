@@ -5,7 +5,7 @@ get_header(); ?>
 
   <header class="container mx-auto">
     <?php
-    //echo do_shortcode('[smartslider3 slider=12]');
+    echo do_shortcode('[smartslider3 slider=12]');
     ?>
   </header>
 
