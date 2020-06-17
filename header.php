@@ -60,7 +60,7 @@
             <a href="<?php echo esc_html(site_url("/")) ?>">首頁</a>
           </li>
           <li class="mr-2 px-2 <?php if (is_page(6)) echo 'text-gray-600 font-medium'; ?>"><a href="<?php echo esc_html(site_url("/company")) ?>">關於大岳</a></li>
-          <li class="mr-2 px-2 relative dropdown<?php if (is_page(15)) echo 'text-gray-600 font-medium'; ?>"><button class="dropbtn">所有產品</button>
+          <li class="mr-2 px-2 relative dropdown<?php if (is_page(15)) echo 'text-gray-600 font-medium'; ?>"><button class="dropbtn" style="font-weight: 300;">所有產品</button>
             <div class="dropdown-content">
               <a href="<?php echo esc_html(site_url("/category/product-window")) ?>">隔音氣密窗</a>
               <a href="<?php echo esc_html(site_url("/category/product-door")) ?>">鋁合金門</a>
