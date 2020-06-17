@@ -79,32 +79,7 @@
           <div class="nav-bar"></div>
           <div class="nav-bar"></div>
         </span>
-        <ul id="responsive" class="sidebar hidden w-1/2 shadow h-full text-center md:hidden bg-white fixed" style="z-index: 50; top: 0; right: 0">
-          <li class="py-3 text-right pr-6">
-            <span onclick="toggleMenu()" class="inline-block relative" style="width: 25px; height: 25px; margin-top: 15px;">
-              <div class="nav-cross absolute"></div>
-              <div class="nav-cross-2 absolute top-0"></div>
-            </span>
-          </li>
-          <li class="py-2 text-gray-600"><a href="#">首頁</a></li>
-          <li class="py-2"><a href="<?php echo esc_html(site_url("/company")) ?>">公司介紹</a></li>
-          <li class="py-2"><span class="dropdownMobile flex justify-center">
-              所有產品
-              <?php //get_template_part('template-parts/content', 'svg-plus'); 
-              ?></span>
-            <ul class="">
-              <li class="pt-4 text-left text-xs" style="padding-left: 6rem;"><a href="<?php echo esc_html(site_url("/category/product-window")) ?>">隔音氣密窗</a></li>
-              <li class="pt-4 text-left" style="padding-left: 6rem;"><a href="<?php echo esc_html(site_url("/category/product-door")) ?>">鋁合金門</a></li>
-              <li class="pt-4 text-left text-xs" style="padding-left: 6rem;"><a href="<?php echo esc_html(site_url("/category/product-woodshutter")) ?>">實木百葉窗</a></li>
-              <li class="pt-4 text-left text-xs" style="padding-left: 6rem;"><a href="<?php echo esc_html(site_url("/category/product-outdoor-shutter")) ?>">戶外升降百葉窗</a></li>
-              <li class="pt-4 text-left text-xs" style="padding-left: 6rem;"><a href="<?php echo esc_html(site_url("/category/product-heat-shield")) ?>">防曬隔熱產品</a></li>
-              <li class="pt-4 text-left text-xs" style="padding-left: 6rem;"><a href="<?php echo esc_html(site_url("/category/product-screen")) ?>">機能紗網</a></li>
-            </ul>
-          </li>
-          <li class="py-2"><a href="<?php echo esc_html(site_url("/inquiry")) ?>">我要詢價</a></li>
-          <li class="py-2"><a href="<?php echo esc_html(site_url("/all-articles")) ?>">相關文章</a></li>
-          <li class="py-2"><a href="<?php echo esc_html(site_url("/contact")) ?>">聯絡我們</a></li>
-        </ul>
+
       </div>
     </div>
   </nav>
