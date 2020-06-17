@@ -51,7 +51,7 @@
           </li>
           <li class="flex items-center mt-2">
             <?php get_template_part('template-parts/content', 'svg-footer-mail'); ?>
-            betterlife@gmail.com
+            service@betterliving.com.tw
           </li>
         </ul>
         </>

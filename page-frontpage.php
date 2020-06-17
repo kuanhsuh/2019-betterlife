@@ -94,7 +94,7 @@ get_header(); ?>
               立即來電
             </h3>
             <p class="mb-2 tracking-wider px-16 text-gray-600 text-sm">間成離之風布，星連無，苦常廠片顯線他個史現</p>
-            <div class="text-teal-400 font-medium mt-4">betterlife@gmail.com</div>
+            <div class="text-teal-400 font-medium mt-4">service@betterliving.com.tw</div>
           </div>
         </div>
         <div class="w-full sm:w-4/12 px-0 sm:px-6">
