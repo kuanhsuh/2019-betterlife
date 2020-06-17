@@ -47,7 +47,7 @@
           </li>
           <li class="flex items-center mt-2">
             <?php get_template_part('template-parts/content', 'svg-footer-phone'); ?>
-            07-666-0000
+            07-349-6559
           </li>
           <li class="flex items-center mt-2">
             <?php get_template_part('template-parts/content', 'svg-footer-mail'); ?>
