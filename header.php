@@ -50,39 +50,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-  <nav class="sticky top-0 bg-white shadow z-50 text-sm py-2 px-4 sm:px-0">
-    <div class="container mx-auto md:px-0">
-      <div class="flex flex-wrap justify-between items-center md:items-end">
-        <a href="/">
-          <img src="<?php echo get_theme_file_uri('/assets/logo.png') ?>" class="h-10" /> </a>
-        <ul class="hidden md:flex md:items-end md:w-auto ">
-          <li class="mr-2 px-2 <?php if (is_page(2)) echo 'text-gray-600 font-medium'; ?>">
-            <a href="<?php echo esc_html(site_url("/")) ?>">首頁</a>
-          </li>
-          <li class="mr-2 px-2 <?php if (is_page(6)) echo 'text-gray-600 font-medium'; ?>"><a href="<?php echo esc_html(site_url("/company")) ?>">關於大岳</a></li>
-          <li class="mr-2 px-2 relative dropdown<?php if (is_page(15)) echo 'text-gray-600 font-medium'; ?>"><button class="dropbtn">所有產品</button>
-            <div class="dropdown-content">
-              <a href="<?php echo esc_html(site_url("/category/product-window")) ?>">隔音氣密窗</a>
-              <a href="<?php echo esc_html(site_url("/category/product-door")) ?>">鋁合金門</a>
-              <a href="<?php echo esc_html(site_url("/category/product-woodshutter")) ?>">實木百葉窗</a>
-              <a href="<?php echo esc_html(site_url("/category/product-outdoor-shutter")) ?>">戶外升降百葉窗</a>
-              <a href="<?php echo esc_html(site_url("/category/product-heat-shield")) ?>">防曬隔熱產品</a>
-              <a href="<?php echo esc_html(site_url("/category/product-screen")) ?>">機能紗網</a>
-            </div>
-          </li>
-          <li class="mr-2 px-2 <?php if (is_page(21)) echo 'text-gray-600 font-medium'; ?>"><a href="<?php echo esc_html(site_url("/inquiry")) ?>">我要詢價</a></li>
-          <li class="mr-2 px-2 <?php if (is_page(18)) echo 'text-gray-600 font-medium'; ?>"><a href="<?php echo esc_html(site_url("/all-articles")) ?>">相關文章</a></li>
-          <li class="pl-2 <?php if (is_page(24)) echo 'text-gray-600 font-medium'; ?>"><a href="<?php echo esc_html(site_url("/contact")) ?>">聯絡我們</a></li>
-        </ul>
-        <span onclick="toggleMenu()" class="block md:hidden">
-          <div class="nav-bar"></div>
-          <div class="nav-bar"></div>
-          <div class="nav-bar"></div>
-        </span>
 
-      </div>
-    </div>
-  </nav>
 
   <script>
     // Dropdown Menu
