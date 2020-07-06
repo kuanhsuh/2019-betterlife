@@ -50,6 +50,10 @@
             07-349-6559
           </li>
           <li class="flex items-center mt-2">
+            <?php get_template_part('template-parts/content', 'svg-footer-phone'); ?>
+            0800-000-753
+          </li>
+          <li class="flex items-center mt-2">
             <?php get_template_part('template-parts/content', 'svg-footer-mail'); ?>
             service@betterliving.com.tw
           </li>

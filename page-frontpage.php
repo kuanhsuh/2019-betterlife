@@ -84,7 +84,8 @@ get_header(); ?>
               聯絡我們
             </h3>
             <p class="mb-2 tracking-wider px-16 text-gray-600 text-sm"></p>
-            <div class="text-teal-400 font-medium mt-4">07-349-6559</div>
+            <div class="text-teal-400 font-medium mt-4">07-349-6559
+              <br />0800-000-753</div>
           </div>
         </div>
         <div class="my-8 sm:my-0 w-full sm:w-4/12 px-0 shadow-2xl py-20 transform -translate-y-4 sm:px-6">
