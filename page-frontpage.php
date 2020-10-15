@@ -51,20 +51,30 @@ get_header(); ?>
       </div>
       <div class="flex flex-wrap mt-8 mx-0 sm:-mx-2">
         <div class="w-full sm:w-1/2 md:w-3/12 px-0 sm:px-2">
-          <img src="<?php echo get_theme_file_uri('/assets/home-product-door.jpg') ?>" alt="" class="w-full object-cover h-full rounded shadow-lg">
-          <p class="text-sm font-normal text-center">鋁合金門</p>
+          <a href="<?php echo esc_html(site_url("/category/product-door")) ?>">
+            <img src="<?php echo get_theme_file_uri('/assets/home-product-door.jpg') ?>" alt="" class="w-full object-cover h-full rounded shadow-lg">
+            <p class="text-sm font-normal text-center">鋁合金門</p>
+          </a>
         </div>
         <div class="w-full sm:w-1/2 md:w-3/12 px-0 sm:px-2 mt-8 sm:mt-0">
-          <img src="<?php echo get_theme_file_uri('/assets/home-product-shutter.jpg') ?>" alt="" class="w-full object-cover h-full rounded shadow-lg">
-          <p class="text-sm font-normal text-center">百葉窗</p>
+          <a href="<?php echo esc_html(site_url("/category/product-woodshutter")) ?>">
+            <img src="<?php echo get_theme_file_uri('/assets/home-product-shutter.jpg') ?>" alt="" class="w-full object-cover h-full rounded shadow-lg">
+            <p class="text-sm font-normal text-center">百葉窗</p>
+          </a>
+
         </div>
         <div class="w-full sm:w-1/2 md:w-3/12 px-0 sm:px-2 mt-8 sm:mt-0">
-          <img src="<?php echo get_theme_file_uri('/assets/home-product-window.jpg') ?>" alt="" class="w-full object-cover h-full rounded shadow-lg">
-          <p class="text-sm font-normal text-center">氣密窗</p>
+          <a href="<?php echo esc_html(site_url("/category/product-window")) ?>">
+            <img src="<?php echo get_theme_file_uri('/assets/home-product-window.jpg') ?>" alt="" class="w-full object-cover h-full rounded shadow-lg">
+            <p class="text-sm font-normal text-center">氣密窗</p>
+          </a>
+
         </div>
         <div class="w-full sm:w-1/2 md:w-3/12 px-0 sm:px-2 mt-8 sm:mt-0">
-          <img src="<?php echo get_theme_file_uri('/assets/home-product-heatsheet.jpg') ?>" alt="" class="w-full object-cover h-full rounded shadow-lg">
-          <p class="text-sm font-normal text-center">隔熱貼膜</p>
+          <a href="<?php echo esc_html(site_url("/category/product-heat-shield")) ?>">
+            <img src="<?php echo get_theme_file_uri('/assets/home-product-heatsheet.jpg') ?>" alt="" class="w-full object-cover h-full rounded shadow-lg">
+            <p class="text-sm font-normal text-center">隔熱貼膜</p>
+          </a>
         </div>
       </div>
     </div>
